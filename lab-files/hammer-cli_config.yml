@@ -1,0 +1,6 @@
+:foreman:
+  :host: 'https://admin.puppetlab.com/'
+  :username: 'admin'
+  :password: 'YOUR_ADMIN_PASSWORD'
+:ssl:
+  :ssl_ca_file: '/etc/puppetlabs/puppet/ssl/certs/ca.pem'

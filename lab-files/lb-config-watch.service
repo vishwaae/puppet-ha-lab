@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync dnsmasq/haproxy config to the LB partner
+[Service]
+ExecStart=/usr/local/bin/lb-config-watch.sh
+Restart=always
+[Install]
+WantedBy=multi-user.target

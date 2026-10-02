@@ -1,0 +1,5 @@
+[Unit]
+Description=Active/passive DNS guard (secondary LB)
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/local-dns-guard.sh

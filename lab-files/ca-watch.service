@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync CA state to the partner CA node
+[Service]
+ExecStart=/usr/local/bin/ca-watch.sh
+Restart=always
+[Install]
+WantedBy=multi-user.target

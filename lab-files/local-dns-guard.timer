@@ -1,0 +1,7 @@
+[Unit]
+Description=Run local-dns-guard every 3s
+[Timer]
+OnBootSec=5s
+OnUnitActiveSec=3s
+[Install]
+WantedBy=timers.target
